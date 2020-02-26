@@ -33,7 +33,7 @@ In [app.dart](lib/src/app.dart) file, replace
            'https://rickandmortyapi.com/api/character/$counter');
              counter++;
             }
-        ...
+        
 
 to 
 
