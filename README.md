@@ -1,6 +1,6 @@
-# Flutter RicknMortyDex 🥒
+# Flutter Rick and Morty info App 🥒
 
-Flutter app which displays the details of the characters in the series. The first slide shows the information about the developer of the app, Madhan Kumar. It is followed by the characters of the series. Each slide loads when the floatingActionButton is pressed. The name of the character, Live status (Dead/Live), Species and Gender is mentioned. The API has 493 charecters to feed.
+Flutter app which displays the details of the characters in the series. The first slide shows the information about the developer of the app, Madhan Kumar. It is followed by the characters of the series. Each slide loads when the floatingActionButton is pressed. The name of the character, Live status (Dead/Live), Species and Gender is mentioned. The API has 493 charecters to feed. 
 
 ## Installation
 
@@ -9,8 +9,10 @@ Check the official [Flutter Github Page](https://github.com/flutter/flutter) for
 ## App Preview
 
 
-<img src="assets/gif1.gif" width="350">
+<img src="assets/gif2.gif" width="350"> 
 
+
+<img src="assets/gif1.gif" width="350">
 
 ## Remove Developer Details
 
@@ -33,15 +35,15 @@ In [app.dart](index.html) file,
             }
         ...
 
-change that to
+change that to 
 
     void fetchImage() async{
         counter++;
         var response= await get(
           'https://rickandmortyapi.com/api/character/$counter');
-
-
-
+    
+    
+    
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
