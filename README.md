@@ -18,7 +18,7 @@ Check the official [Flutter Github Page](https://github.com/flutter/flutter) for
 
 Developer's data is added in the app as the first resource. To remove that, follow the following methods:
 
-In [app.dart](index.html) file,
+In [app.dart](lib/src/app.dart) file,
 
 
     void fetchImage() async{
