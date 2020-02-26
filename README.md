@@ -18,7 +18,7 @@ Check the official [Flutter Github Page](https://github.com/flutter/flutter) for
 
 Developer's data is added in the app as the first resource. To remove that, follow the following methods:
 
-In [app.dart](lib/src/app.dart) file,
+In [app.dart](lib/src/app.dart) file, replace
 
 
     void fetchImage() async{
@@ -35,7 +35,7 @@ In [app.dart](lib/src/app.dart) file,
             }
         ...
 
-change that to 
+to 
 
     void fetchImage() async{
         counter++;
